@@ -13,7 +13,7 @@ body {
 }
 
 .hero-section {
-    width: 100%;
+    width: 1440px;
     height: 652px;
     background-image: url(../assets/Hero-bg.png);
     background-position: center;
@@ -23,4 +23,55 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.hero-section .hero-content {
+    width: 998px;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section .hero-content .hero-image {
+    width: 240.28px;
+    height: 240px;
+    margin-bottom: 20px;
+}
+
+.hero-section .hero-content .text-content {
+    width: 998px;
+    height: 212px;
+}
+
+.hero-section .hero-content .text-content .hero-title {
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    margin: 0 0 20px;
+}
+
+.hero-section .hero-content .text-content .hero-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    margin: 0 0 20px;
+}
+
+.hero-section .hero-content .hero-button {
+    width: 208px;
+    height: 66px;
+    background: rgb(13, 19, 33);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    padding: 21px 24px;
+    margin: 32px 0;
+    cursor: pointer;
 }
