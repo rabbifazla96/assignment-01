@@ -10,6 +10,7 @@ body {
     font-family: "Azeret Mono", monospace;
     text-decoration: none;
     list-style: none;
+    background: rgb(255, 255, 255);
 }
 
 .hero-section {
@@ -74,4 +75,128 @@ body {
     padding: 21px 24px;
     margin: 32px 0;
     cursor: pointer;
+}
+
+.why-web-development {
+    width: 1140px;
+    height: 1395px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 75px auto;
+}
+
+.why-web-development .web-content {
+    width: 946px;
+    height: 1235px; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.why-web-development .web-content .title-area {
+    width: 852px;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.why-web-development .web-content .title-area .web-title {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+}
+
+.why-web-development .web-content .title-area .web-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin: 24px 0px;
+}
+
+.why-web-development .web-content .reason-01 {
+    width: 946px;
+    height: 336px;
+    margin: 32px 0;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reason-01 .reason-01-content {
+    width: 850px;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reason-01-text-and-button {
+    width: 477px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.reason-01-title-desc {
+    width: 477px;
+    height: 140px;
+    text-align: left;
+}
+
+.reason-01-title-desc .reason-01-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+
+.reason-01-title-desc .reason-01-desc {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-top: 16px;
+}
+
+.reason-01-button {
+    width: 150px;
+    height: 48px;
+    padding: 12px 20px;
+    margin-top: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    background: none;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.reason-01-img {
+    width: 260px;
+    height: auto;
 }
