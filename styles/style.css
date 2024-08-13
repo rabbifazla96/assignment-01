@@ -79,7 +79,7 @@ body {
 
 .why-web-development {
     width: 1140px;
-    height: 1395px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,11 +91,12 @@ body {
 
 .why-web-development .web-content {
     width: 946px;
-    height: 1235px; 
+    height: auto; 
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: auto 0;
 }
 
 .why-web-development .web-content .title-area {
@@ -124,6 +125,8 @@ body {
     opacity: 0.7;
     margin: 24px 0px;
 }
+
+/* Reason 01 start  */
 
 .why-web-development .web-content .reason-01 {
     width: 946px;
@@ -200,3 +203,160 @@ body {
     width: 260px;
     height: auto;
 }
+
+ /* Reason 02 start  */
+
+ .why-web-development .web-content .reason-02 {
+    width: 946px;
+    height: 336px;
+    margin: 32px 0;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reason-02 .reason-02-content {
+    width: 850px;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reason-02-text-and-button {
+    width: 477px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.reason-02-title-desc {
+    width: 477px;
+    height: 140px;
+    text-align: left;
+}
+
+.reason-02-title-desc .reason-02-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+
+.reason-02-title-desc .reason-02-desc {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-top: 16px;
+}
+
+.reason-02-button {
+    width: 150px;
+    height: 48px;
+    padding: 12px 20px;
+    margin-top: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    background: none;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.reason-02-img {
+    width: 260px;
+    height: auto;
+}
+
+/* Reason 03 start  */
+
+.why-web-development .web-content .reason-03 {
+    width: 946px;
+    height: 336px;
+    margin-top: 32px;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reason-03 .reason-03-content {
+    width: 850px;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reason-03-text-and-button {
+    width: 477px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.reason-03-title-desc {
+    width: 477px;
+    height: 140px;
+    text-align: left;
+}
+
+.reason-03-title-desc .reason-03-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+
+.reason-03-title-desc .reason-03-desc {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-top: 16px;
+}
+
+.reason-03-button {
+    width: 150px;
+    height: 48px;
+    padding: 12px 20px;
+    margin-top: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    background: none;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.reason-03-img {
+    width: 260px;
+    height: auto;
+}
+
