@@ -604,3 +604,105 @@ body {
     text-decoration-line: underline;
     margin-top: 24px;
 }
+
+/* Need Support Start  */
+
+.need-support {
+    position: relative;
+    width: 1140px;
+    height: 314px;
+    padding: 64px 48px;
+    border-radius: 16px;
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin: 100px auto 0 auto;
+}
+
+.need-support::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 1;
+}
+
+.need-support-content {
+    position: relative; 
+    z-index: 2; 
+    width: 1044px;
+    height: 186px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.need-support-title-desc {
+    width: 730px;
+    height: 104px;
+    text-align: center;
+}
+
+.need-support-title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+
+.need-support-desc {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 16px;
+}
+
+.need-support-form {
+    width: 684px;
+    height: 58px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.need-support-input {
+    width: 548px;
+    height: 57px;
+    padding: 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.need-support-button {
+    width: 120px;
+    height: 58px;
+    padding: 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+}
