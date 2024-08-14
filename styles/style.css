@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Azeret Mono", monospace;
     text-decoration: none;
@@ -76,6 +80,7 @@ body {
     padding: 21px 24px;
     margin: 32px 0;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .why-web-development {
