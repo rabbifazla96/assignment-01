@@ -706,3 +706,38 @@ body {
     text-align: center;
     border: none;
 }
+
+.contact {
+    width: 1440px;
+    height: 100px;
+    padding: 32px 150px;
+    margin: 80px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px 16px 0 0;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-content {
+    width: 1140px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.icons {
+    width: 36px;
+    height: 36px;
+    margin-left: 8px;
+}
